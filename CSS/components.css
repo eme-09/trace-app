@@ -1,0 +1,51 @@
+
+.btn {
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn--cta {
+    background-color: white;
+  color: #004aad;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-left: 20px;
+  transition: background-color 0.3s;
+}
+
+.btn--cta:hover {
+  background-color: #051432;
+  color: white;
+}
+
+.btn--outline {
+  background-color: #051432;
+  border: 2px solid #003366;
+  color: #ffffff;
+}
+
+.btn--outline:hover {
+  background-color: #003366;
+  color: white;
+}
+
+.btn--primary {
+  background-color: #004aad;
+  color: white;
+}
+
+.btn--primary:hover {
+  background-color: #003a8c;
+}
+
+.hero__stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  text-align: left;
+}

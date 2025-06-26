@@ -1,0 +1,57 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f4ff ; 
+  color: #333;
+}
+
+:root {
+  --color-primary: #004aad;
+  --color-accent: #ff7f50;
+  --color-light: #f5f7fa;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .header__logo img {
+    width: 100px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero__content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero__left,
+  .hero__right {
+     width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  }
+
+  .features__list {
+    flex-direction: column;
+  }
+
+  .pricing__cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .footer__content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
